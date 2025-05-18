@@ -4,12 +4,14 @@
   "description": "Un sistema de gestion de asistencias",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Acosta Tomas",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "mysql2": "^3.14.1"
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
   }
 }
